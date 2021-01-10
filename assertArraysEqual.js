@@ -8,9 +8,9 @@ const eqArrays = function(arr1, arr2) {
 
 const assertArraysEqual = function(arr3, arr4) {
   if (eqArrays(arr3, arr4) === true) {
-    console.log("match");
+    console.log("✅✅✅match");
   } else {
-    console.log("no match");
+    console.log("🛑🛑🛑no match");
   }
 };
 
