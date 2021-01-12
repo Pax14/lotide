@@ -28,8 +28,7 @@ const assertArraysEqual = function(arr3, arr4) {
 };
 
 
-
 const results1 = map(words, word => word[0]);
 
-console.log(assertArraysEqual(results1, ['g', 'd', 't', 'm', 't']));
-console.log(assertArraysEqual(results1, ['g', 'c', 't', 'm', 't']));
+assertArraysEqual(results1, ['g', 'd', 't', 'm', 't']);
+assertArraysEqual(results1, ['g', 'c', 't', 'm', 't']);

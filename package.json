@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@pax14/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mini clone of Lodash library intended for learning purposes",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Pax14/lotide.git"
   },
-  "author": "",
+  "author": "Paxon Cheung",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Pax14/lotide/issues"
