@@ -8,21 +8,10 @@ const assertEqual = function(actual, expected) {
 
 
 // TEST CODE
-console.log(assertEqual("Lighthouse Labs", "Bootcamp"));
-console.log(assertEqual(1, 1));
-console.log(assertEqual(1, 4));
-console.log(assertEqual("Hello", "Hello"));
+// console.log(assertEqual("Lighthouse Labs", "Bootcamp"));
+// assertEqual(1, 4);
+// assertEqual(1, 1);
+// console.log(assertEqual("Hello", "Hello"));
 
 
-/*
-
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    return ('✅✅✅Assertion Passed: ' + actual + ' === ' + expected);
-  } else {
-    return ('🛑🛑🛑Assertion Failed: ' + actual + ' !=== ' + expected);
-  }
-};
-
-*/ 
-
+module.exports = assertEqual;
